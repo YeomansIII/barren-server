@@ -1,0 +1,7 @@
+{
+    "uid": "barren-server",
+    "append": true,
+    "watch": true,
+    "script": "app.js",
+    "sourceDir": "/home/jason/apps/barren-server/server"
+}

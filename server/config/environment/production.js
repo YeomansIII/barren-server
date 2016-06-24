@@ -6,7 +6,7 @@ module.exports = {
   // Server IP
   ip:       process.env.OPENSHIFT_NODEJS_IP ||
             process.env.IP ||
-            "0.0.0.0",
+            "localhost",
 
   // Server port
   port:     process.env.OPENSHIFT_NODEJS_PORT ||
@@ -18,6 +18,6 @@ module.exports = {
     uri:    process.env.MONGOLAB_URI ||
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://localhost/barrendoorbell'
+            'mongodb://localhost/barren'
   }
 };
